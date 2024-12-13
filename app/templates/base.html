@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+  <title>{% block title %}{% endblock %} - Ultimate Iron Mike</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  {% block styles %}{% endblock %}
+</head>
+<body>
+  {% block body %}{% endblock %}
+</body>
